@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/setting_volumekey_fix_title" />
+    <SwitchPreference
+        android:key="volume_key_lock"
+        android:summary="@string/setting_volumekey_fix_summary"
+        android:defaultValue="false"
+        />
+    <Preference
+        android:title="@string/setting_phonestate_dialog_title"
+        android:summary="@string/setting_phonestate_dialog_summary"/>
+    <Preference
+        android:title="@string/setting_webpage_title"
+        android:summary="@string/setting_webpage_summary">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://play.google.com/store/apps/details?id=catchpower.gogo.blackholeaddons" />
+    </Preference>
+    <Preference
+        android:title="@string/setting_credit_title"
+        android:summary="@string/setting_credit_summay">
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Media Volume only</string>
+    <string name="setting_title">Media Volume only</string>
+<!--    <string name="setting_category_media_key">Einstellungen zur Berichtigung der Lautstärketasten</string> -->
+    <string name="setting_volumekey_fix_title">Funktion der Lautstärketasten ändern</string>
+    <string name="setting_volumekey_fix_summary">Lautstärketasten kontrollieren ausschließlich die Medienlautstärke.</string>
+    <string name="setting_accessibility_dialog_title">Zugriff auf \'Dienste\' in \'Bedienungshilfen\' benötigt</string>
+    <string name="setting_enable_accessibility_dialog_summary">\'Media Volume only\' muss unter \'Dienste\' aktiviert werden, damit die Änderung der Funktion der Lautstärketasten wirksam wird.\n\n\'Einstellungen\' \u2192 \'Bedienungshilfen\' \u2192 \'Dienste\' \u2192 \'Media Volume only\' \u2192 An</string>
+    <string name="setting_disable_accessibility_dialog_summary">Wenn die Funktion von \'Media Volume only\' nicht mehr gebraucht  wird, kann \'Media Volume only\' auch unter \'Dienste\' deaktiviert werden.\n\n\'Einstellungen\' \u2192 \'Bedienungshilfen\' \u2192 \'Dienste\' \u2192 \'Media Volume only\' \u2192 Aus</string>
+    <string name="toast_alert_enable_volkey_without_accessibility">\'Media Volume only\' muss unter \'Dienste\' aktiviert sein, damit die Änderung der Funktion der Lautstärketasten wirksam wird.\nGehe zu \'Einstellungen\' \u2192 \'Bedienungshilfen\' und prüfe \'Dienste\'.</string>
+    <string name="setting_volumekey_dialog_OK">OK</string>
+    <string name="setting_volumekey_dialog_CLOSE">Schließen</string>
+    <string name="setting_phonestate_dialog_title">Benötigt die Berechtigung, den Telefonstatus zu lesen</string>
+    <string name="setting_phonestate_dialog_summary">Wenn telefoniert wird, besteht evtl. der Bedarf, die Hörerlautstärke zu ändern - und nicht die Medienlautstärke. Dafür braucht es die Berechtigung, den Telefonstatus zu lesen, damit erkannt wird, dass gerade telefoniert wird.</string>
+    <string name="accessibility_description">\'Media Volume only\' muss aktiviert sein, damit die Änderung der Funktion der Lautstärketasten wirksam wird.</string>
+    <string name="setting_credit_title">Media Volume only</string>
+    <string name="setting_credit_summay">Entwickler: Raphael Kim\n\nDank an:\nJohannes Peter (Deutsch / Englisch; Icon)</string>
+    <string name="setting_webpage_title">NGC 4388</string>
+    <string name="setting_webpage_summary">\'Media Volume only\' bietet die Einstellung an, dass die Lautstärketasten des Handys ausschließlich die Medienlautstärke regeln - ohne dass Energie vom Akku angezapft wird. Das ist eines von vielen Features von \'NGC 4388\', einer umfangreichen App vom selben Entwickler.\nWer sich für \'NGC 4388\' interessiert, welche weit mehr Einstellungsmöglichkeiten bietet, tippe auf diese Schaltfläche, um \'NGC 4388\' aus dem \'Play Store\' herunterzuladen.</string>
+</resources>

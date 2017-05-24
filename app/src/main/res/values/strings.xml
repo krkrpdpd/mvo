@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Media Volume only</string>
+    <string name="setting_title">Media Volume only</string>
+<!--    <string name="setting_category_media_key">Volume buttons fix Settings</string> -->
+    <string name="setting_volumekey_fix_title">Lock volume buttons to media volume</string>
+    <string name="setting_volumekey_fix_summary">Volume buttons control media volume only</string>
+    <string name="setting_accessibility_dialog_title">Access to \'Service\' in \'Accessibility\' needed </string>
+    <string name="setting_enable_accessibility_dialog_summary">\'Media Volume only\' needs to be activated for making the change of the volume buttons control valid.\n\n\'Settings\' \u2192 \'Accessibility\' \u2192 \'Service\' \u2192 \'Media Volume only\' \u2192 On</string>
+    <string name="setting_disable_accessibility_dialog_summary">If \'Media Volume only\' is not needed anymore, it can be deactivated in \'Accessibility\' as well, so it\'s not on the list anymore for Android to check.\n\n\'Settings\' \u2192 \'Accessibility\' \u2192 \'Service\' \u2192 \'Media Volume only\' \u2192 Off</string>
+    <string name="toast_alert_enable_volkey_without_accessibility">\'Media Volume only\' needs to be activated for making the change of the volume buttons control valid.\nPlease go to \'Settings\' \u2192 \'Accessibility\' and check \'Service\'</string>
+    <string name="setting_volumekey_dialog_OK">OK</string>
+    <string name="setting_volumekey_dialog_CLOSE">Close</string>
+    <string name="setting_phonestate_dialog_title">Need permission to read phone status</string>
+    <string name="setting_phonestate_dialog_summary">When you are on a call, you may want to adjust the call volume - not the media volume in this case. That’s why this app needs permission to read the phone status to check that you are on a call.</string>
+    <string name="accessibility_description">\'Media Volume only\' needs to be activated for making the change of the volume buttons control valid.</string>
+    <string name="setting_credit_title">Media Volume only</string>
+    <string name="setting_credit_summay">Developer : Raphael Kim\n\nThanks to :\nJohannes Peter (German / English; Icon)</string>
+    <string name="setting_webpage_title">NGC 4388</string>
+    <string name="setting_webpage_summary">\'Media Volume only\' provides the option to lock the volume buttons to media volume without draining battery life. This is one of many features of the app \'NGC 4388\' from the same developer.\nIf you want to try \'NGC 4388\', that has much more options, tap here to download \'NGC 4388\' from \'Play Store\'.</string>
+</resources>
