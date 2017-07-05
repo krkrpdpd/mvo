@@ -2,8 +2,8 @@
 <accessibility-service
     android:accessibilityEventTypes="typeWindowStateChanged"
     android:accessibilityFeedbackType="feedbackGeneric"
-    android:accessibilityFlags="flagIncludeNotImportantViews|flagRequestFilterKeyEvents"
-    android:canRequestFilterKeyEvents="true"
+    android:accessibilityFlags="flagIncludeNotImportantViews"
+    android:canRequestFilterKeyEvents="false"
     android:description="@string/accessibility_description"
     android:settingsActivity="catchpower.gogo.mediavolumeonly.SettingsActivity"
     xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -38,25 +38,4 @@ public class AccessibilityService extends android.accessibilityservice.Accessibi
 
     @Override
     public void onInterrupt() { }
-
-    @Override
-    protected boolean onKeyEvent(KeyEvent event) {
-        if (event != null) {
-            if(event.getAction() == KeyEvent.ACTION_UP || event.getAction() == KeyEvent.ACTION_DOWN) {
-                if (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_DOWN || event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_UP) {
-                    SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
-                    if( pref.getBoolean("volume_key_lock", false) == true){
-                        Utils.setMusicKey(this);
-                        new Handler().postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                Utils.setMusicKey(AccessibilityService.this);
-                            }
-                        }, 100);
-                    }
-                }
-            }
-        }
-        return super.onKeyEvent(event);
-    }
 }
